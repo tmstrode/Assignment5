@@ -1,0 +1,44 @@
+#orderdisplay {background-color: #E8D880; }
+#customerlistdisplay {background-color: #6FD0DE;}
+#orderhisdisplay {background-color: #55FF33;}
+
+.divelement1 {overflow: scroll;}
+.divelement2 {overflow: scroll;}
+.divelement3 {overflow: scroll;}
+
+section.customerlistarea
+    {
+        visibility: hidden;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+        
+    }
+
+section.orderhisarea
+    {
+        visibility: hidden;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+    }
+    
+section.orderarea
+    {
+        background-color: #FFB3B3;
+        visibility: hidden;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+        
+    }
+
+
+
+
